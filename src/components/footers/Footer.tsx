@@ -1,41 +1,91 @@
-import {
-    IconBrandInstagram,
-    IconBrandFacebook,
-} from "@tabler/icons-react";
+import { motion } from "framer-motion";
+
+import FooterColumn from "./footer-column";
+import { officeData, practiceAreas, quickLinks, socials } from "@/data/Footers";
 
 export default function Footer() {
     return (
-        <footer className="bg-primary-sgs text-white">
-            <div className="container mx-auto px-6">
-                <div className="py-16 grid gap-12 md:grid-cols-3">
+        <footer className="bg-[#081119]">
+            <div className="mx-auto container-custom md:container px-6 py-24">
+                <div className="grid gap-20 lg:grid-cols-[1.5fr_1fr_1.3fr_1.2fr]">
                     <div>
-                        <img src="/navbar/logo-sgs.svg" alt="logo" className="w-20"/>
+                        <div className="flex items-center gap-4">
+                            <img src="/navbar/logo-sgs.svg" alt="logo" className="w-15"/>
+                            <div>
+                                <h3 className="font-serif text-2xl text-white">
+                                    SGS LAWFIRM
+                                </h3>
+                                <p className="mt-1 text-[8px] tracking-[4px] uppercase text-[#C8A04E]">
+                                    Advocates & Legal Consultants
+                                </p>
+                            </div>
+                        </div>
+
+                        <p className="mt-8 leading-6 text-[#7E8794] text-sm">
+                            Legal solutions built on integrity, commitment,
+                            and a passion for justice.
+                        </p>
+
+                        <div className="mt-8 flex gap-5">
+                            {socials.map((Icon, index) => (
+                                <motion.button
+                                    key={index}
+                                    whileHover={{ y: -4, borderColor: "#C8A04E" }}
+                                    className="flex h-12 w-12 items-center justify-center rounded-full border border-[#2A3643] text-[#C8A04E]"
+                                >
+                                    <Icon size={20} />
+                                </motion.button>
+                            ))}
+                        </div>
                     </div>
 
-                    <div>
-                        <h4 className="font-semibold text-lg">Explore</h4>
-                        <ul className="mt-5 space-y-3 text-white/80">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
+                    <FooterColumn
+                        title="Quick Links"
+                        items={quickLinks}
+                    />
+
+                    <FooterColumn
+                        title="Practice Areas"
+                        items={practiceAreas}
+                    />
 
                     <div>
-                        <h4 className="font-semibold text-lg">Find Us</h4>
-                        <div className="flex gap-4 mt-5">
-                            <a href="#" className="w-10 h-10 rounded-full bg-[#F4BE3D] text-black flex items-center justify-center">
-                                <IconBrandInstagram size={18} />
-                            </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-[#F4BE3D] text-black flex items-center justify-center">
-                                <IconBrandFacebook size={18} />
-                            </a>
+                        <h3 className="font-serif text-xl text-white">
+                            Office
+                        </h3>
+                        <div className="mt-5 space-y-8">
+                            {officeData.map((item) => {
+                                const Icon = item.icon;
+                                return (
+                                    <div
+                                        key={item.title}
+                                        className="flex gap-4 items-center"
+                                    >
+                                        <Icon size={18} className="mt-1 text-[#C8A04E]" />
+
+                                        <div>
+                                            <div className="text-sm text-[#7E8794]">
+                                                {item.title}
+                                            </div>
+
+                                            {item.subtitle && (
+                                                <div className="text-sm text-[#7E8794]">
+                                                    {item.subtitle}
+                                                </div>
+                                            )}
+                                        </div>
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="border-t border-white/10 py-5 text-center text-sm text-white/60">
-                © 2026 Copyright
+            <div className="border-t border-[#182430]">
+                <div className="mx-auto max-w-[1280px] px-6 py-8 text-center text-[16px] text-[#66717D]">
+                    © 2024 SGS Lawfirm. All Rights Reserved.
+                </div>
             </div>
         </footer>
     );

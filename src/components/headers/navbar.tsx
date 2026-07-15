@@ -148,7 +148,7 @@ export default function Navbar() {
         initial={{ y: -80 }}
         animate={{ y: 0 }}
         transition={{ duration: .45 }}
-        className={`fixed top-0 left-0 right-0 z-[999] transition-all duration-300 ${scrolled ? "bg-primary-sgs/95 backdrop-blur-xl shadow-xl" : "bg-transparent"}`}>
+        className={`fixed top-0 left-0 right-0 z-[999] transition-all duration-300 ${scrolled ? "bg-primary-sgs/95 backdrop-blur-xl shadow-xl border-b-2 border-gold-sgs" : "bg-transparent border-b-2 border-transparent"}`}>
         <div className="container-custom md:container mx-auto px-5">
           <div className={`flex items-center justify-between transition-all duration-300 ${scrolled ? "py-3" : "py-5"}`}>
             <div className="flex items-center">

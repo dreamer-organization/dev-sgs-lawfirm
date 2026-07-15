@@ -145,9 +145,7 @@ export default function Hero() {
 
             <motion.div style={{ y: bgAnimationY }} className="hidden md:absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-white/10 blur-3xl pointer-events-none" />
             <motion.div
-                style={{
-                opacity: indicatorOpacity,
-                }}
+                style={{ opacity: indicatorOpacity }}
                 className="hidden md:block"
             >
                 <ScrollIndicator />
