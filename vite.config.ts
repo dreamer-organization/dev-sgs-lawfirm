@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite';
+import path from "path"
+import { defineConfig } from 'vitest/config'
+import tailwindcss from "@tailwindcss/vite"
 import federation from '@originjs/vite-plugin-federation';
-import react from '@vitejs/plugin-react';
+import react from "@vitejs/plugin-react-swc"
 import { tanstackRouter } from "@tanstack/router-plugin/vite"
+import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
   plugins: [
@@ -10,6 +13,8 @@ export default defineConfig({
       autoCodeSplitting: true,
     }),
     react(),
+    tailwindcss(),
+    tsconfigPaths(),
     federation({
       name: 'app',
       remotes: {},

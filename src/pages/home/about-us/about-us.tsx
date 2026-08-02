@@ -113,7 +113,7 @@ export default function AboutUs() {
                 >
                     {/* Frame */}
                     <div className="overflow-hidden rounded-sm border-2 border-gold-sgs bg-white p-3">
-                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1400&q=80" alt="" className="w-full object-cover" />
+                        <img src="/team.jpg" alt="" className="w-full h-140 object-cover" />
                     </div>
 
                     {/* Badge */}
@@ -122,7 +122,7 @@ export default function AboutUs() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: .35 }}
-                        className="absolute -left-8 bottom-8 flex items-center gap-5 !rounded-lg bg-primary-sgs px-6 py-2 md:px-7 md:py-6 shadow-[0_18px_50px_rgba(0,0,0,.25)] border-b-[5px] border-gold-sgs"
+                        className="absolute -left-8 bottom-8 flex items-center gap-5 rounded-lg! bg-primary-sgs px-6 py-2 md:px-7 md:py-6 shadow-[0_18px_50px_rgba(0,0,0,.25)] border-b-[5px] border-gold-sgs"
                     >
                         <div className="text-md md:text-4xl font-bold leading-none text-gold-sgs">
                             20+
@@ -150,7 +150,7 @@ export default function AboutUs() {
                     transition={{ duration: .8 }}
                 >
                     <div className="overflow-hidden rounded-sm border-2 border-gold-sgs bg-white p-3">
-                        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1600&q=80" alt="" className="w-full object-cover" />
+                        <img src="/team-1.jpg" alt="" className="w-full h-140 object-cover" />
                     </div>
                 </motion.div>
 

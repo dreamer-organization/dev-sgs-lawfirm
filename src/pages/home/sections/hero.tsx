@@ -69,16 +69,16 @@ export default function Hero() {
         <section className="relative overflow-hidden bg-sgs-main min-h-screen" id="home">
             <div className="hidden md:block">
                 <motion.div style={{y: bgAnimationY}} className="absolute inset-0">
-                    <img src={'/hero-image-sgs.png'} alt="hero" className="w-full h-full object-cover object-center"/>
+                    <img src={'/team-2.png'} alt="hero" className="w-full h-full object-cover object-center"/>
                 </motion.div>
-                <motion.div style={{opacity}} className=" absolute inset-0 bg-gradient-to-r from-primary-sgs from-10% via-transparent via-30% to-transparent to-90%" />
+                <motion.div style={{opacity}} className=" absolute inset-0 bg-linear-to-r from-primary-sgs from-10% via-transparent via-30% to-transparent to-90%" />
             </div>
 
             <div className="block md:hidden">
                 <motion.div style={{y: bgAnimationY}} className="absolute inset-0 bg-primary-sgs">
                     <img src={"/hero-image-mobile-sgs.png"} alt="hero" className="w-full object-cover object-center"/>
                 </motion.div>
-                <motion.div style={{opacity}} className=" absolute inset-0 bg-gradient-to-t from-primary-sgs from-10% via-primary-sgs via-25% to-transparent to-90%" />
+                <motion.div style={{opacity}} className=" absolute inset-0 bg-linear-to-t from-primary-sgs from-10% via-primary-sgs via-25% to-transparent to-90%" />
             </div>
 
             <motion.div style={{y: contentAnimationY, opacity}} className="container-custom md:container relative z-20 mx-auto px-6">
@@ -143,7 +143,7 @@ export default function Hero() {
                 </div>
             </motion.div>
 
-            <motion.div style={{ y: bgAnimationY }} className="hidden md:absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full bg-white/10 blur-3xl pointer-events-none" />
+            <motion.div style={{ y: bgAnimationY }} className="hidden md:absolute -bottom-40 -left-40 w-125 h-125 rounded-full bg-white/10 blur-3xl pointer-events-none" />
             <motion.div
                 style={{ opacity: indicatorOpacity }}
                 className="hidden md:block"
