@@ -2,19 +2,49 @@ import { useNavigate } from "@tanstack/react-router";
 import { newsData } from "@/data/News";
 import NewsCard from "./news-card";
 import NewsPagination from "./news-pagination";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { useForm } from "react-hook-form";
 import { Form } from "@/components/ui/form"
 import InputText from "@/components/input/input-text";
 import { Search } from "lucide-react";
 import InputSelect from "@/components/input/input-select";
+import { useDebounce } from "@/hooks/use-debounce";
+import { getNewsFn } from "@/api/api-news";
+import { useQuery } from "@tanstack/react-query";
 
 export default function NewsList() {
     const navigate = useNavigate()
     const form = useForm({})
 
+    const [limit, setLimit] = useState(10);
     const [page, setPage] = useState(1);
+    const [totalRows, setTotalRows] = useState(0);
+    const [totalPages, setTotalPages] = useState(0);
+
+    const search = form.watch("search") || "";
+    const debounceSearch = useDebounce(search, 500);
+
+    useEffect(() => {
+        if (form.formState.isDirty) {
+            setPage(1);
+        }
+    }, [debounceSearch]);
+
+    const { data, isLoading, refetch, isFetching, error, isError } = useQuery({
+        queryKey: ["news", limit, page, debounceSearch],
+        queryFn: () => getNewsFn(limit, page, debounceSearch),
+        staleTime: Infinity
+    });
+
+    useEffect(() => {
+        if (isError) {
+            // toast.error(`Failed to fetch data ujian: ${(error as any)?.description || "Unknown error"}`);
+        }
+    }, [isError]);
+
+    console.log("DATA NEWS : ", data);
+    
 
     return (
         <div>

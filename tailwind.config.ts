@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import animate from "tailwindcss-animate";
+
 export default {
 	darkMode: ["class"],
 	content: [
@@ -18,15 +20,18 @@ export default {
 				}
 			},
 			colors: {
-				'primary-sgs': '#071118',
-				'secondary-sgs': '#101C29',
+				// 'primary-sgs': '#071118',
+				// 'secondary-sgs': '#101C29',
+				'primary-sgs': '#24215D',
+				'secondary-sgs': '#191C44',
 				'gold-sgs': '#C9A35A',
 				'secondary-gold-sgs': '#C6A15B',
 				'dark-sgs': '#09121D',
 				'gold-light-sgs': '#D8B97A',
 				'primary-light-sgs': '#F5F0E6',
 				'border-sgs': '#243445',
-				'blue-sgs': '#1B91D0',
+				// 'blue-sgs': '#1B91D0',
+				'blue-sgs': '#201F53',
 				'blue-secondary-sgs': '#04567B',
 				'gray-sgs': '#5D6471',
 				'secondary-gray-sgs': '#667085',
@@ -91,13 +96,36 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				// dialogIn: {
+				// 	"0%": {
+				// 		opacity: "0",
+				// 		transform: "translate(-50%, calc(-50% + 60px))",
+				// 	},
+				// 	"100%": {
+				// 		opacity: "1",
+				// 		transform: "translate(-50%, -50%)",
+				// 	},
+				// },
+				// dialogOut: {
+				// 	"0%": {
+				// 		opacity: "1",
+				// 		transform: "translate(-50%, -50%)",
+				// 	},
+				// 	"100%": {
+				// 		opacity: "0",
+				// 		transform: "translate(-50%, calc(-50% + 60px))",
+				// 	},
+				// },
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				// dialogIn: "dialogIn 300ms ease-out",
+				// dialogOut: "dialogOut 250ms ease-in",
+			},
 		}
 	},
 	// plugins: [require("tailwindcss-animate")],
+	plugins: [animate],
 }

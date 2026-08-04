@@ -69,7 +69,7 @@ export default function Hero() {
         <section className="relative overflow-hidden bg-sgs-main min-h-screen" id="home">
             <div className="hidden md:block">
                 <motion.div style={{y: bgAnimationY}} className="absolute inset-0">
-                    <img src={'/team-2.png'} alt="hero" className="w-full h-full object-cover object-center"/>
+                    <img src={'/team-3.png'} alt="hero" className="w-full h-full object-cover object-center"/>
                 </motion.div>
                 <motion.div style={{opacity}} className=" absolute inset-0 bg-linear-to-r from-primary-sgs from-10% via-transparent via-30% to-transparent to-90%" />
             </div>

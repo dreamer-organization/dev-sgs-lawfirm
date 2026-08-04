@@ -10,6 +10,7 @@ import NewsContent from "./news-content";
 import './styles.scss'
 import 'ckeditor5/ckeditor5.css';
 import NewsPrevNext from "./components/news-prevnext";
+import { useEffect } from "react";
 
 interface NewsDetailProps {
     slug: string;
@@ -22,14 +23,22 @@ export default function NewsDetailPage({
     const {
         data: article,
         isLoading,
+        error,
         isError,
     } = useQuery({
         queryKey: ["news-detail", slug],
         queryFn: () => getDetailNewsFn(slug),
-        enabled: !!slug,
+        // staleTime: Infinity
+        enabled: !!slug
     });
-
-    console.log(article);
+        
+    useEffect(() => {
+        if (isError) {
+            console.log("ERROR : ", error);
+            
+            // toast.error(`Failed to fetch data ujian: ${(error as any)?.description || "Unknown error"}`);
+        }
+    }, [isError]);
     
 
     if (isLoading) {

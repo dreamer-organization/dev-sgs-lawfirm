@@ -4,7 +4,7 @@ import { IconCalendarEvent } from "@tabler/icons-react";
 
 export default function ContactUs() {
     return (
-        <section className="relative overflow-hidden bg-[#101D33] py-20">
+        <section className="relative overflow-hidden bg-linear-to-r from-[#1A1C43] to-[#29246C] py-20">
             {/* Watermark */}
             <div className="absolute left-[-30px] top-1/2 -translate-y-1/2 select-none text-[280px] font-serif leading-none text-white/[0.03]">
                 SGS

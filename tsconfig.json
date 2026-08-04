@@ -9,9 +9,9 @@
     }
   ],
   "compilerOptions": {
-    // "baseUrl": ".",
+    "baseUrl": ".",
     "types": ["vitest", "jsdom"],
-    "jsx": "react-jsx",
+    // "jsx": "react-jsx",
     "paths": {
       "@/*": ["./src/*"]
     },

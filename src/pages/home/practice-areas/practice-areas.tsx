@@ -7,7 +7,7 @@ export default function PracticeAreas() {
     return (
         <section
             id="practice-areas"
-            className="relative overflow-hidden bg-[#081119] py-28 lg:py-36"
+            className="relative overflow-hidden bg-blue-sgs py-28 lg:py-36"
         >
             {/* Background Glow */}
             <div className="absolute inset-0">

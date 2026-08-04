@@ -7,7 +7,7 @@ import {
 export const ctaContacts = [
     {
         icon: IconPhone,
-        title: "+62 21 1234 5678",
+        title: "(+62) 811-1443-339",
         subtitle: "Call us for a consultation",
     },
     {

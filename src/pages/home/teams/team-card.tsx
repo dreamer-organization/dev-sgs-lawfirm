@@ -11,6 +11,7 @@ interface Props {
     image: string;
     linkedin: string;
     email: string;
+    onClick?: () => void;
 }
 
 export default function TeamCard({
@@ -20,6 +21,7 @@ export default function TeamCard({
     image,
     linkedin,
     email,
+    onClick,
 }: Props) {
     return (
         <motion.article
@@ -28,6 +30,7 @@ export default function TeamCard({
             whileHover="hover"
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: .45 }}
+            onClick={onClick}
             className="group relative overflow-hidden rounded-md border border-[#27333D] bg-secondary-sgs transition-all duration-500 hover:-translate-y-2 hover:border-[#C6A15B] hover:shadow-[0_30px_80px_rgba(198,161,91,.15)]"
         >
             {/* IMAGE */}
@@ -74,6 +77,9 @@ export default function TeamCard({
                         whileHover={{ y: -4, scale: 1.1 }}
                         whileTap={{ scale: .95 }}
                         href={linkedin}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="flex h-10 w-10 items-center justify-center rounded-full border border-[#394957] text-[#C6A15B] transition hover:bg-[#C6A15B] hover:text-[#081119]"
                     >
                         <IconBrandLinkedinFilled size={18} />
@@ -83,6 +89,9 @@ export default function TeamCard({
                         whileHover={{ y: -4, scale: 1.1 }}
                         whileTap={{ scale: .95 }}
                         href={email}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="flex h-10 w-10 items-center justify-center rounded-full border border-[#394957] text-[#C6A15B] transition hover:bg-[#C6A15B] hover:text-[#081119]">
                         <IconMailFilled size={18} />
                     </motion.a>

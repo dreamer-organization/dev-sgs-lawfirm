@@ -27,13 +27,8 @@ export const practiceAreas = [
 
 export const officeData = [
     {
-        icon: IconMapPin,
-        title: "Jl. Sudirman No. 123",
-        subtitle: "Jakarta 10220, Indonesia",
-    },
-    {
         icon: IconPhone,
-        title: "+62 21 1234 5678",
+        title: "(+62) 811-1443-339",
     },
     {
         icon: IconMail,

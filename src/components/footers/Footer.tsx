@@ -2,10 +2,11 @@ import { motion } from "framer-motion";
 
 import FooterColumn from "./footer-column";
 import { officeData, practiceAreas, quickLinks, socials } from "@/data/Footers";
+import { IconMapPin } from "@tabler/icons-react";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#081119]">
+        <footer className="bg-linear-to-t from-primary-sgs to-secondary-sgs border-t border-gold-sgs">
             <div className="mx-auto container-custom md:container px-6 py-24">
                 <div className="grid gap-20 lg:grid-cols-[1.5fr_1fr_1.3fr_1.2fr]">
                     <div>
@@ -54,25 +55,28 @@ export default function Footer() {
                             Office
                         </h3>
                         <div className="mt-5 space-y-8">
+                            <div  className="grid grid-cols-[0.05fr_1fr] gap-4 items-center">
+                                <IconMapPin size={18} className="mt-1 text-[#C8A04E]" />
+                                <div>
+                                    <div className="text-sm text-[#7E8794]">
+                                        Jl. Kota Baru Bandar Kemayoran No.C-8 <br />
+                                        Gunung Sahari Selatan, Kemayoran, Kota Jakarta Pusat, DKI Jakarta, <br /> kode.pos : 10610.
+                                    </div>
+                                </div>
+                            </div>
                             {officeData.map((item) => {
                                 const Icon = item.icon;
                                 return (
                                     <div
                                         key={item.title}
-                                        className="flex gap-4 items-center"
+                                        className="grid grid-cols-[0.05fr_1fr] gap-4 items-center"
                                     >
-                                        <Icon size={18} className="mt-1 text-[#C8A04E]" />
 
+                                        <Icon size={18} className="mt-1 text-[#C8A04E]" />
                                         <div>
                                             <div className="text-sm text-[#7E8794]">
                                                 {item.title}
                                             </div>
-
-                                            {item.subtitle && (
-                                                <div className="text-sm text-[#7E8794]">
-                                                    {item.subtitle}
-                                                </div>
-                                            )}
                                         </div>
                                     </div>
                                 );
@@ -82,9 +86,9 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="border-t border-[#182430]">
-                <div className="mx-auto max-w-[1280px] px-6 py-8 text-center text-[16px] text-[#66717D]">
-                    © 2024 SGS Lawfirm. All Rights Reserved.
+            <div className="border-t border-gold-light-sgs/20">
+                <div className="mx-auto max-w-[1280px] px-6 py-5 text-center text-[16px] text-[#66717D]">
+                    © 2026 SGS Lawfirm. All Rights Reserved.
                 </div>
             </div>
         </footer>

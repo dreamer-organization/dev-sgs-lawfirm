@@ -1,0 +1,38 @@
+export const teamMembers = [
+    {
+        id: 1,
+        name: "JOHN ANDERSON",
+        position: "Managing Partner",
+        practice: "Corporate & Commercial Law",
+        image: "/images/team/member-1.jpg",
+        linkedin: "#",
+        email: "#",
+    },
+    {
+        id: 2,
+        name: "MARIA CHRISTINA",
+        position: "Partner",
+        practice: "Banking & Finance",
+        image: "/images/team/member-2.jpg",
+        linkedin: "#",
+        email: "#",
+    },
+    {
+        id: 3,
+        name: "ANDREW WILLIAM",
+        position: "Senior Associate",
+        practice: "Litigation & Dispute Resolution",
+        image: "/images/team/member-3.jpg",
+        linkedin: "#",
+        email: "#",
+    },
+    {
+        id: 4,
+        name: "NATALIE ELEANOR",
+        position: "Associate",
+        practice: "Employment & Labor Law",
+        image: "/images/team/member-4.jpg",
+        linkedin: "#",
+        email: "#",
+    },
+];

@@ -28,6 +28,8 @@ const buttonVariants = cva(
         blue: "text-blue-500 bg-blue-100 hover:bg-blue-100",
         blue_outline:
           "border-2 border-gold-sgs bg-blue-50 hover:bg-accent text-gold-sgs",
+        red_outline:
+          "border-2 border-red-600 bg-red-50 text-red-600",
       },
       size: {
         default: "h-10 px-4 py-1",

@@ -4,8 +4,7 @@ import {
     DialogDescription,
     DialogTitle
 } from "@/components/ui/dialog"
-import React from "react";
-
+import React, { useEffect, useState }  from "react";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { cn } from "@/lib/utils";
 import IconReactIcons from "@/lib/icon-react-icons";
@@ -33,14 +32,54 @@ export default function ModalChildren({
 }: Readonly<ModalChildrenProps>) {
 
     const onChange = (open: boolean) => {
-        if (!open) {
-            onClose()
+        // if (!open) {
+        //     onClose()
+        // }
+        if(open){
+            setOpen(true);
+            return;
         }
+
+        setOpen(false);
+
+        setTimeout(()=>{
+            setMounted(false);
+            onClose();
+        },250);
     }
+
+    const [mounted, setMounted] = useState(isOpen);
+    const [open, setOpen] = useState(false);
+
+    useEffect(() => {
+        if (isOpen) {
+            setMounted(true);
+
+            requestAnimationFrame(() => {
+                setOpen(true);
+            });
+
+            return;
+        }
+
+        setOpen(false);
+
+        const timer = setTimeout(() => {
+            setMounted(false);
+            onClose();
+        }, 250);
+
+        return () => clearTimeout(timer);
+
+    }, [isOpen]);
+
+    if (!mounted) {
+    return null;
+}
 
     return (
         <Dialog
-            open={isOpen}
+            open={open}
             onOpenChange={onChange}
         >
             <DialogContent
@@ -49,7 +88,7 @@ export default function ModalChildren({
                 onInteractOutside={(e) => noCloseBackground && e.preventDefault()}
                 showClose
                 noCloseBackground={noCloseBackground}
-                className={cn("rounded-md flex flex-col !w-fit min-w-0 md:min-w-[700px] max-w-[1450px] min-h-[300px] max-h-[650px] bg-white p-2 overflow-visible pointer-events-auto", className)}
+                className={cn("rounded-md flex flex-col !w-fit min-w-0 md:min-w-[700px] max-w-[1450px] min-h-[300px] max-h-[650px] bg-white p-2 overflow-visible pointer-events-auto data-[state=open]:animate-dialogIn data-[state=closed]:animate-dialogOut", className)}
             >
 
                 {(title || description || icons) && (
@@ -79,7 +118,7 @@ export default function ModalChildren({
                     <DialogDescription>Hidden Title</DialogDescription>
                 </VisuallyHidden>
 
-                <div className="h-full overflow-auto py-4 pl-[1px] w-full">
+                <div className="h-full overflow-auto py-4 pl-[1px] w-full scrollbar-hide">
                     {children}
                 </div>
             </DialogContent>
