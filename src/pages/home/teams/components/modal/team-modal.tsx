@@ -37,7 +37,7 @@ export default function ModalTeamProfile({
 
             <div className="grid lg:grid-cols-[420px_1fr] h-full">
                 {/* ================= SIDEBAR ================= */}
-                <aside className="bg-[#0C1620] border-r border-[#27333D]">
+                <aside className="bg-primary-sgs border-r border-gold-sgs">
                     <img
                         src={member.imageDetail}
                         alt={member.name}
@@ -66,7 +66,7 @@ export default function ModalTeamProfile({
                         </p>
                     </div>
 
-                    <div className="border-t border-[#26313C]" />
+                    <div className="border-t border-gold-sgs/20" />
 
                     {/* GRID */}
                     <div className="grid lg:grid-cols-2 items-center">
