@@ -48,7 +48,7 @@ export default function NewsCard({
                         <span>{article.date}</span>
                     </div>
 
-                    <span className="text-[12px] font-semibold tracking-[1.8px] text-gold-sgs uppercase">
+                    <span className="text-[12px] font-semibold tracking-[1.8px] text-premium-gold-sgs uppercase">
                         {article.category}
                     </span>
                 </div>

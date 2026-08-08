@@ -69,16 +69,16 @@ export default function Hero() {
         <section className="relative overflow-hidden bg-sgs-main min-h-screen" id="home">
             <div className="hidden md:block">
                 <motion.div style={{y: bgAnimationY}} className="absolute inset-0">
-                    <img src={'/team-3.png'} alt="hero" className="w-full h-full object-cover object-center"/>
+                    <img src={'/hero-image-sgs.png'} alt="hero" className="w-full h-full object-cover object-center"/>
                 </motion.div>
-                <motion.div style={{opacity}} className=" absolute inset-0 bg-linear-to-r from-primary-sgs from-10% via-transparent via-30% to-transparent to-90%" />
+                <motion.div style={{opacity}} className=" absolute inset-0 bg-linear-to-r from-navy-sgs from-10% via-transparent via-30% to-transparent to-90%" />
             </div>
 
             <div className="block md:hidden">
-                <motion.div style={{y: bgAnimationY}} className="absolute inset-0 bg-primary-sgs">
+                <motion.div style={{y: bgAnimationY}} className="absolute inset-0 bg-navy-sgs">
                     <img src={"/hero-image-mobile-sgs.png"} alt="hero" className="w-full object-cover object-center"/>
                 </motion.div>
-                <motion.div style={{opacity}} className=" absolute inset-0 bg-linear-to-t from-primary-sgs from-10% via-primary-sgs via-25% to-transparent to-90%" />
+                <motion.div style={{opacity}} className=" absolute inset-0 bg-linear-to-t from-navy-sgs from-10% via-navy-sgs via-25% to-transparent to-90%" />
             </div>
 
             <motion.div style={{y: contentAnimationY, opacity}} className="container-custom md:container relative z-20 mx-auto px-6">
@@ -88,7 +88,7 @@ export default function Hero() {
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8 }}
-                            className="font-title text-gold-sgs font-extrabold leading-none tracking-[2px] md:tracking-[4px] text-sm md:text-2xl mb-10"
+                            className="font-title text-premium-gold-sgs font-extrabold leading-none tracking-[2px] md:tracking-[4px] text-sm md:text-2xl mb-10"
                         >
                             Legal Solutions. Trusted Partnership.
                         </motion.h1>
@@ -100,7 +100,7 @@ export default function Hero() {
                         >
                             Providing Strategic
                             Legal Solutions,
-                            Delivering <span className="text-gold-sgs">Real Results.</span>
+                            Delivering <span className="text-premium-gold-sgs">Real Results.</span>
                         </motion.h1>
 
                         <motion.p
@@ -124,20 +124,20 @@ export default function Hero() {
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="bg-gold-sgs hover:bg-gold-sgs/90 text-black font-semibold px-7 py-3 rounded-md transition flex items-center justify-center tracking-[1px]"
+                                className="bg-premium-gold-sgs hover:bg-premium-gold-sgs/90 text-black font-semibold px-7 py-3 rounded-md transition flex items-center justify-center tracking-[1px]"
                                 onClick={() => handleMenu("program")}
                             >
-                                Our Practice Areas <IconArrowRight className="ml-4"/>
+                                Appoiment <IconArrowRight className="ml-4"/>
                             </motion.button>
 
-                            <motion.button
+                            {/* <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="bg-primary-sgs hover:bg-primary-sgs/90 text-white border-white border font-semibold px-7 py-3 rounded-md transition flex items-center justify-center tracking-[1px]"
+                                className="bg-navy-sgs hover:bg-navy-sgs/90 text-white border-white border font-semibold px-7 py-3 rounded-md transition flex items-center justify-center tracking-[1px]"
                                 onClick={() => handleMenu("transaction-flow")}
                             >
                                 Book Consultation <IconCalendar className="ml-4"/>
-                            </motion.button>
+                            </motion.button> */}
                         </motion.div>
                     </div>
                 </div>

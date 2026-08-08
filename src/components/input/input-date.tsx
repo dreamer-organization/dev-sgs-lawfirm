@@ -204,7 +204,7 @@ export default function InputDate({
                                                             onClick={() => handleYearChange(year)}
                                                             className={cn(
                                                                 "w-full py-2 rounded-lg text-sm text-center",
-                                                                selectedYear === Number(year) ? "bg-gold-sgs text-white" : "hover:bg-gray-200 dark:hover:bg-gray-700"
+                                                                selectedYear === Number(year) ? "bg-premium-gold-sgs text-white" : "hover:bg-gray-200 dark:hover:bg-gray-700"
                                                             )}
                                                         >
                                                             {year}

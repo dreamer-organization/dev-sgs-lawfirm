@@ -12,7 +12,7 @@ export default function ConsultSection() {
     return (
         <section
             id="consult"
-            className="relative overflow-hidden bg-primary-blue border-t border-gold-sgs"
+            className="relative overflow-hidden bg-primary-blue border-t border-premium-gold-sgs"
         >
             {/* ================= MAIN GRID ================= */}
 
@@ -237,7 +237,7 @@ export default function ConsultSection() {
                 {/* RIGHT */}
                 {/* ================================================= */}
 
-                <div className="relative overflow-hidden bg-primary-sgs">
+                <div className="relative overflow-hidden bg-navy-sgs">
 
                     {/* office background */}
 
@@ -248,7 +248,7 @@ export default function ConsultSection() {
 
                     {/* overlay */}
 
-                    <div className="absolute inset-0 bg-primary-sgs/70" />
+                    <div className="absolute inset-0 bg-navy-sgs/70" />
 
                     {/* glow */}
 
@@ -324,7 +324,7 @@ export default function ConsultSection() {
                                 duration: 7,
                                 ease: "easeInOut",
                             }}
-                            className="absolute z-20 h-[640px] w-[520px] rounded-[42px] border border-[#C6A15B]/70 bg-gradient-to-b from-primary-sgs to-secondary-sgs shadow-[0_50px_120px_rgba(0,0,0,.65)]"
+                            className="absolute z-20 h-[640px] w-[520px] rounded-[42px] border border-[#C6A15B]/70 bg-gradient-to-b from-navy-sgs to-secondary-sgs shadow-[0_50px_120px_rgba(0,0,0,.65)]"
                         >
 
                             {/* gold glow */}

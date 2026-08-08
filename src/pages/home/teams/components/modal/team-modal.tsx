@@ -32,12 +32,12 @@ export default function ModalTeamProfile({
             isOpen={isOpen}
             onClose={onClose}
             noCloseBackground
-            className="w-[65vw]! max-w-full h-[92vh] max-h-[92vh] p-0 bg-primary-sgs border border-gold-sgs z-999 rounded-xl"
+            className="w-full md:w-[65vw]! max-w-full h-[92vh] max-h-[92vh] p-0 bg-navy-sgs border border-premium-gold-sgs z-999 rounded-xl"
         >
 
             <div className="grid lg:grid-cols-[420px_1fr] h-full">
                 {/* ================= SIDEBAR ================= */}
-                <aside className="bg-primary-sgs border-r border-gold-sgs">
+                <aside className="bg-navy-sgs border-r border-premium-gold-sgs">
                     <img
                         src={member.imageDetail}
                         alt={member.name}
@@ -60,13 +60,13 @@ export default function ModalTeamProfile({
                         <p className="mt-3 text-xl text-[#C6A15B]">
                             {member.position}
                         </p>
-                        <div className="mt-6 h-[2px] w-20 bg-[#C6A15B]" />
+                        <div className="mt-6 h-0.5 w-20 bg-[#C6A15B]" />
                         <p className="mt-8 leading-8 text-[#B8C1C8]">
                             {member.biography}
                         </p>
                     </div>
 
-                    <div className="border-t border-gold-sgs/20" />
+                    <div className="border-t border-premium-gold-sgs/20" />
 
                     {/* GRID */}
                     <div className="grid lg:grid-cols-2 items-center">
@@ -76,7 +76,7 @@ export default function ModalTeamProfile({
                         />
                         
                     <div className="mx-auto">
-                        <Button variant="default" className="rounded-lg bg-gold-sgs text-primary-sgs flex items-center justify-center gap-3 hover:bg-gold-light-sgs">
+                        <Button variant="default" className="rounded-lg bg-premium-gold-sgs text-navy-sgs flex items-center justify-center gap-3 hover:bg-gold-light-sgs">
                             <IconCalendarEvent size={20}/>
                             Consultation
                         </Button>
@@ -127,7 +127,7 @@ function InfoSection({
     items=[],
 }: any){
     return(
-        <div className="p-8 border-r border-gold-sgs last:border-r-0">
+        <div className="p-8 border-r border-premium-gold-sgs last:border-r-0">
             <h3 className="uppercase tracking-[.08em] text-[#C6A15B] font-semibold">
                 {title}
             </h3>
@@ -135,7 +135,7 @@ function InfoSection({
             <ul className="mt-6 space-y-4">
                 {items.map((item:string)=>(
                     <li key={item} className="flex gap-3 text-[#D5DDE4] text-sm">
-                        <span className="mt-[10px] h-2 w-2 rounded-full bg-[#C6A15B]" />
+                        <span className="mt-2.5 h-2 w-2 rounded-full bg-[#C6A15B]" />
                         <span>{item}</span>
                     </li>
                 ))}

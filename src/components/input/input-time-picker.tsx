@@ -111,8 +111,8 @@ export default function InputTimePicker({
                 useEffect(() => {
                     if (showDropdown) {
                         setTimeout(() => {
-                            const selectedHour = document.querySelector(".hours button.bg-gold-sgs");
-                            const selectedMinute = document.querySelector(".minutes button.bg-gold-sgs");
+                            const selectedHour = document.querySelector(".hours button.bg-premium-gold-sgs");
+                            const selectedMinute = document.querySelector(".minutes button.bg-premium-gold-sgs");
 
                             if (selectedHour) {
                                 selectedHour.scrollIntoView({ block: "center" });
@@ -149,7 +149,7 @@ export default function InputTimePicker({
                                                     handleHourChange(e)
                                                 }}
                                                 onClick={toggleDropdown}
-                                                className="w-7 px-1 py-0.5 text-center bg-transparent focus:bg-gold-sgs focus:text-white outline-none rounded-sm"
+                                                className="w-7 px-1 py-0.5 text-center bg-transparent focus:bg-premium-gold-sgs focus:text-white outline-none rounded-sm"
                                                 placeholder="--"
                                                 disabled={disabled}
                                             />
@@ -163,7 +163,7 @@ export default function InputTimePicker({
                                                     handleMinuteChange(e)
                                                 }}
                                                 onClick={toggleDropdown}
-                                                className="w-7 px-1 py-0.5 text-center bg-transparent focus:bg-gold-sgs focus:text-white outline-none rounded-sm"
+                                                className="w-7 px-1 py-0.5 text-center bg-transparent focus:bg-premium-gold-sgs focus:text-white outline-none rounded-sm"
                                                 placeholder="--"
                                                 disabled={disabled}
                                             />
@@ -185,7 +185,7 @@ export default function InputTimePicker({
                                             <button
                                                 key={h}
                                                 type="button"
-                                                className={`px-4 py-2 cursor-pointer rounded-sm mx-1.5 text-sm ${h === hour ? "bg-gold-sgs text-white" : "hover:bg-gray-200"
+                                                className={`px-4 py-2 cursor-pointer rounded-sm mx-1.5 text-sm ${h === hour ? "bg-premium-gold-sgs text-white" : "hover:bg-gray-200"
                                                     }`}
                                                 onClick={() => handleHourSelect(h)}
                                             >
@@ -200,7 +200,7 @@ export default function InputTimePicker({
                                             <button
                                                 key={m}
                                                 type="button"
-                                                className={`px-4 py-2 cursor-pointer rounded-sm mx-1.5 text-sm ${m === minute ? "bg-gold-sgs text-white" : "hover:bg-gray-200"
+                                                className={`px-4 py-2 cursor-pointer rounded-sm mx-1.5 text-sm ${m === minute ? "bg-premium-gold-sgs text-white" : "hover:bg-gray-200"
                                                     }`}
                                                 onClick={() => handleMinuteSelect(m)}
                                             >
@@ -218,7 +218,7 @@ export default function InputTimePicker({
                                             value={hour}
                                             readOnly
                                             onClick={toggleDropdown}
-                                            className="w-7 px-1 py-0.5 text-center focus:bg-gold-sgs focus:text-white outline-none rounded-sm"
+                                            className="w-7 px-1 py-0.5 text-center focus:bg-premium-gold-sgs focus:text-white outline-none rounded-sm"
                                             placeholder="HH"
                                         />
                                         <span className="mb-[1px]">:</span>
@@ -227,7 +227,7 @@ export default function InputTimePicker({
                                             value={minute}
                                             readOnly
                                             onClick={toggleDropdown}
-                                            className="w-7 px-1 py-0.5 text-center focus:bg-gold-sgs focus:text-white outline-none rounded-sm"
+                                            className="w-7 px-1 py-0.5 text-center focus:bg-premium-gold-sgs focus:text-white outline-none rounded-sm"
                                             placeholder="MM"
                                         />
                                     </div>
@@ -245,7 +245,7 @@ export default function InputTimePicker({
                                             {hours.map((h) => (
                                                 <button
                                                     key={h}
-                                                    className={`px-4 py-2 cursor-pointer rounded-sm mx-1.5 text-sm ${h === hour ? "bg-gold-sgs text-white" : "hover:bg-gray-200"
+                                                    className={`px-4 py-2 cursor-pointer rounded-sm mx-1.5 text-sm ${h === hour ? "bg-premium-gold-sgs text-white" : "hover:bg-gray-200"
                                                         }`}
                                                     onClick={() => handleHourSelect(h)}
                                                 >
@@ -259,7 +259,7 @@ export default function InputTimePicker({
                                             {minutes.map((m) => (
                                                 <button
                                                     key={m}
-                                                    className={`px-4 py-2 cursor-pointer rounded-sm mx-1.5 text-sm ${m === minute ? "bg-gold-sgs text-white" : "hover:bg-gray-200"
+                                                    className={`px-4 py-2 cursor-pointer rounded-sm mx-1.5 text-sm ${m === minute ? "bg-premium-gold-sgs text-white" : "hover:bg-gray-200"
                                                         }`}
                                                     onClick={() => handleMinuteSelect(m)}
                                                 >

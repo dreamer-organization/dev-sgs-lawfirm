@@ -39,6 +39,34 @@ export default {
 				'orange-sgs': '#FF6347',
 				'yellow-sgs': '#FBBB2B',
 				'purple-sgs': '#7158D9',
+				'navy-sgs': {
+					50: "#E8E8F5",
+					100: "#B9BAE0",
+					200: "#8B8DCB",
+					300: "#686BB9",
+					400: "#4A4DA3",
+					500: "#35388A",
+					600: "#292B6B",
+					700: "#202253",
+					800: "#101126",
+					900: "#0A0B1C",
+					'dark': "#0B0C1D",
+					'light': '##F7F7FB',
+					DEFAULT: "#17183A",
+				},
+				'premium-gold-sgs': {
+					50: "#FBF5E8",
+					100: "#F5E8C8",
+					200: "#ECD59F",
+					300: "#E4C278",
+					400: "#DDB05A",
+					500: "#B88732",
+					600: "#986D27",
+					700: "#76501F",
+					800: "#523716",
+					900: "#33230F",
+					DEFAULT: '#D4A144'
+				},
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				card: {
@@ -79,6 +107,11 @@ export default {
 					'4': 'hsl(var(--chart-4))',
 					'5': 'hsl(var(--chart-5))'
 				}
+			},
+			backgroundImage: {
+				"basic-gold-metallic-sgs": "linear-gradient( 135deg, #76501F 0%, #B88732 18%, #D4A144 35%, #F5E8C8 50%, #D4A144 65%, #B88732 82%, #76501F 100%)",
+				"premium-gold-metallic-sgs": "linear-gradient(110deg, #76501F 0%, #B88732 20%, #D4A144 38%, #F5E8C8 50%, #DDB05A 62%, #B88732 80%, #76501F 100%)",
+				"gold-metallic": "linear-gradient(110deg, #76501F 0%, #B88732 20%, #D4A144 38%, #F5E8C8 50%, #DDB05A 62%, #B88732 80%, #76501F 100%)"
 			},
 			keyframes: {
 				'accordion-down': {

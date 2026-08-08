@@ -2,10 +2,8 @@ import { motion } from "framer-motion";
 
 import TeamHeader from "./team-header";
 import TeamCard from "./team-card";
-import { teamMembers } from "@/data/Team";
+import { homeTeamMembers } from "@/data/Team";
 import { useState } from "react";
-import TeamModal from "./components/modal/team-modal";
-import ModalAddFaq from "./components/modal/team-modal";
 import ModalTeamProfile from "./components/modal/team-modal";
 
 export default function OurTeam() {
@@ -36,10 +34,10 @@ export default function OurTeam() {
                 {/* Background Glow */}
 
                 <div className="absolute inset-0 overflow-hidden">
-                    <div className="absolute left-1/2 top-40 h-[650px] w-[650px] -translate-x-1/2 rounded-full bg-[#C6A15B]/5 blur-[180px]" />
+                    <div className="absolute left-1/2 top-40 h-162.5 w-162.5 -translate-x-1/2 rounded-full bg-[#C6A15B]/5 blur-[180px]" />
                 </div>
 
-                <div className="relative mx-auto container-custom lg:container px-6">
+                <div className="relative mx-auto container-custom md:container px-6">
                     {/* HEADER */}
                     <motion.div
                         initial={{ opacity: 0, y: 40 }}
@@ -58,7 +56,7 @@ export default function OurTeam() {
                         variants={{ hidden: {}, show: { transition: { staggerChildren: .12 } } }}
                         className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-4"
                     >
-                        {teamMembers.map((member) => (
+                        {homeTeamMembers.map((member) => (
                             <>
                                 <motion.div
                                     key={member.id}

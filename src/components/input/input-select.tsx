@@ -144,7 +144,7 @@ export default function InputSelect<T>({
                                                 readOnly && 'pointer-events-none',
                                                 fieldState.error && "bg-rose-100 border-rose-500",
                                                 field.value ? 'text-black' : 'text-gray-500/80',
-                                                'relative cursor-pointer text-gold-sgs border-gold-sgs focus:ring-0'
+                                                'relative cursor-pointer text-premium-gold-sgs border-premium-gold-sgs focus:ring-0'
                                             )}
                                         >
                                             <SelectValue
@@ -164,7 +164,7 @@ export default function InputSelect<T>({
                                         <SelectContent
                                             data-radix-select-content
                                             qa-select={qa}
-                                            className='max-h-[250px] relative bg-[#F6F2E9] border-gold-sgs'
+                                            className='max-h-[250px] relative bg-[#F6F2E9] border-premium-gold-sgs'
                                             activatePortal={activatePortal}
                                         >
                                             {listData?.map((item, index) => {

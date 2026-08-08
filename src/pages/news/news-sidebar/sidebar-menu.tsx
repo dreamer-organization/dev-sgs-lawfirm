@@ -17,21 +17,11 @@ export default function SidebarMenu({
             {items.map((item, index) => (
                 <button
                     key={item.name}
-                    className={`
-                        flex
-                        w-full
-                        items-center
-                        justify-between
-                        rounded-md
-                        px-4
-                        py-3
-                        text-left
-                        transition
-
+                    className={`flex w-full items-center justify-between rounded-md px-4 py-3 text-left transition cursor-pointer
                         ${
                             active === index
-                                ? "bg-[#C6A15B] text-[#081119]"
-                                : "text-[#A7B2BC] hover:bg-[#101A23]"
+                                ? "bg-premium-gold-sgs text-navy-sgs-dark"
+                                : "text-navy-sgs-dark hover:bg-premium-gold-sgs"
                         }
                     `}
                 >

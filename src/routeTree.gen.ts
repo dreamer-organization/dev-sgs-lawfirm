@@ -12,6 +12,8 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as NewsNewsRouteImport } from './routes/_news/news'
+import { Route as PracticeAreasPracticeAreasRouteImport } from './routes/_practice-areas/practice-areas'
+import { Route as TeamsTeamsRouteImport } from './routes/_teams/teams'
 import { Route as NewsSlugSlugRouteImport } from './routes/_news/$slug/$slug'
 
 const IndexRoute = IndexRouteImport.update({
@@ -29,6 +31,17 @@ const NewsNewsRoute = NewsNewsRouteImport.update({
   path: '/news',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PracticeAreasPracticeAreasRoute =
+  PracticeAreasPracticeAreasRouteImport.update({
+    id: '/_practice-areas/practice-areas',
+    path: '/practice-areas',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const TeamsTeamsRoute = TeamsTeamsRouteImport.update({
+  id: '/_teams/teams',
+  path: '/teams',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const NewsSlugSlugRoute = NewsSlugSlugRouteImport.update({
   id: '/_news/$slug/$slug',
   path: '/$slug/$slug',
@@ -39,12 +52,16 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$': typeof SplatRoute
   '/news': typeof NewsNewsRoute
+  '/practice-areas': typeof PracticeAreasPracticeAreasRoute
+  '/teams': typeof TeamsTeamsRoute
   '/$slug/$slug': typeof NewsSlugSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$': typeof SplatRoute
   '/news': typeof NewsNewsRoute
+  '/practice-areas': typeof PracticeAreasPracticeAreasRoute
+  '/teams': typeof TeamsTeamsRoute
   '/$slug/$slug': typeof NewsSlugSlugRoute
 }
 export interface FileRoutesById {
@@ -52,20 +69,32 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/$': typeof SplatRoute
   '/_news/news': typeof NewsNewsRoute
+  '/_practice-areas/practice-areas': typeof PracticeAreasPracticeAreasRoute
+  '/_teams/teams': typeof TeamsTeamsRoute
   '/_news/$slug/$slug': typeof NewsSlugSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/$' | '/news' | '/$slug/$slug'
+  fullPaths:
+    '/' | '/$' | '/news' | '/practice-areas' | '/teams' | '/$slug/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/$' | '/news' | '/$slug/$slug'
-  id: '__root__' | '/' | '/$' | '/_news/news' | '/_news/$slug/$slug'
+  to: '/' | '/$' | '/news' | '/practice-areas' | '/teams' | '/$slug/$slug'
+  id:
+    | '__root__'
+    | '/'
+    | '/$'
+    | '/_news/news'
+    | '/_practice-areas/practice-areas'
+    | '/_teams/teams'
+    | '/_news/$slug/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SplatRoute: typeof SplatRoute
   NewsNewsRoute: typeof NewsNewsRoute
+  PracticeAreasPracticeAreasRoute: typeof PracticeAreasPracticeAreasRoute
+  TeamsTeamsRoute: typeof TeamsTeamsRoute
   NewsSlugSlugRoute: typeof NewsSlugSlugRoute
 }
 
@@ -92,6 +121,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NewsNewsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/_practice-areas/practice-areas': {
+      id: '/_practice-areas/practice-areas'
+      path: '/practice-areas'
+      fullPath: '/practice-areas'
+      preLoaderRoute: typeof PracticeAreasPracticeAreasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_teams/teams': {
+      id: '/_teams/teams'
+      path: '/teams'
+      fullPath: '/teams'
+      preLoaderRoute: typeof TeamsTeamsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/_news/$slug/$slug': {
       id: '/_news/$slug/$slug'
       path: '/$slug/$slug'
@@ -106,6 +149,8 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SplatRoute: SplatRoute,
   NewsNewsRoute: NewsNewsRoute,
+  PracticeAreasPracticeAreasRoute: PracticeAreasPracticeAreasRoute,
+  TeamsTeamsRoute: TeamsTeamsRoute,
   NewsSlugSlugRoute: NewsSlugSlugRoute,
 }
 export const routeTree = rootRouteImport

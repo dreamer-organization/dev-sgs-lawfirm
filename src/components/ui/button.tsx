@@ -18,7 +18,7 @@ const buttonVariants = cva(
           "border-2 border-blue-800 text-blue-800 bg-background hover:bg-accent hover:text-accent-foreground",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        primary: "bg-gold-sgs text-white hover:bg-blue-900",
+        primary: "bg-premium-gold-sgs text-white hover:bg-blue-900",
         green: "bg-green-sgs text-white hover:bg-green-sgs/90",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
@@ -27,7 +27,7 @@ const buttonVariants = cva(
         delete: "text-rose-500 bg-rose-100 hover:bg-rose-200",
         blue: "text-blue-500 bg-blue-100 hover:bg-blue-100",
         blue_outline:
-          "border-2 border-gold-sgs bg-blue-50 hover:bg-accent text-gold-sgs",
+          "border-2 border-premium-gold-sgs bg-blue-50 hover:bg-accent text-premium-gold-sgs",
         red_outline:
           "border-2 border-red-600 bg-red-50 text-red-600",
       },

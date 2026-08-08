@@ -67,8 +67,8 @@ export default function NewsList() {
                                 name="search"
                                 qa="input-search"
                                 placeholder="Search news..."
-                                className="rounded-md border-gold-sgs text-gold-sgs"
-                                startAdorn={<Search className="w-5 h-5 text-gold-sgs" />}
+                                className="rounded-md border-premium-gold-sgs text-premium-gold-sgs"
+                                startAdorn={<Search className="w-5 h-5 text-premium-gold-sgs" />}
                             />
                             
                             {/* <InputSelect

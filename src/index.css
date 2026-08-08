@@ -42,5 +42,38 @@ body{
 }
 
 .container-custom{
-    @apply max-w-[1280px] mx-auto px-6 lg:px-8;
+    @apply max-w-370 mx-auto px-6 lg:px-8;
+}
+
+/* GOLD TEXT HOVER HEADER */
+.gold-text-hover {
+  position: relative;
+  color: white;
+  transition: color 0.5s ease;
+}
+
+.gold-text-hover:hover {
+  background: linear-gradient(
+    110deg,
+    #B88732 0%,
+    #D4A144 35%,
+    #F5E8C8 50%,
+    #D4A144 65%,
+    #B88732 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gold-text-shine 1.5s ease forwards;
+}
+
+@keyframes gold-text-shine {
+  from {
+    background-position: 100% 0;
+  }
+
+  to {
+    background-position: 0% 0;
+  }
 }

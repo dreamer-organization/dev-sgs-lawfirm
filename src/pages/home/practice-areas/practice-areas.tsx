@@ -7,14 +7,14 @@ export default function PracticeAreas() {
     return (
         <section
             id="practice-areas"
-            className="relative overflow-hidden bg-blue-sgs py-28 lg:py-36"
+            className="relative overflow-hidden bg-blue-sgs py-20 lg:py-24"
         >
             {/* Background Glow */}
             <div className="absolute inset-0">
-                <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-[#C6A15B]/5 blur-[180px]" />
+                <div className="absolute left-1/2 top-0 h-125 w-125 -translate-x-1/2 rounded-full bg-[#C6A15B]/5 blur-[180px]" />
             </div>
 
-            <div className="relative mx-auto max-w-[1280px] px-6">
+            <div className="relative mx-auto max-w-7xl px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ export default function PracticeAreas() {
                     <div className="mb-16 flex flex-col items-center">
                         <div className="flex items-center gap-5">
                             <span className="h-px w-14 bg-[#7F6A40]/40" />
-                            <span className="text-[12px] uppercase tracking-[5px] font-semibold text-gold-sgs">
+                            <span className="text-[12px] uppercase tracking-[5px] font-semibold text-premium-gold-sgs">
                                 Practice Areas
                             </span>
 

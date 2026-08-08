@@ -192,7 +192,7 @@ export default function InputImage({
                                                 (imageSrc || selectedImage) && 'bg-[#00000091]'
                                             )}
                                         >
-                                            <label htmlFor={name} className='flex justify-center items-center px-3 gap-2 w-[6rem] text-xs p-2 rounded transition duration-300 hover:bg-gold-sgs hover:text-white text-gold-sgs bg-white cursor-pointer'>
+                                            <label htmlFor={name} className='flex justify-center items-center px-3 gap-2 w-[6rem] text-xs p-2 rounded transition duration-300 hover:bg-premium-gold-sgs hover:text-white text-premium-gold-sgs bg-white cursor-pointer'>
                                                 <Pencil className='w-4 h-4' /><span>Edit</span>
                                             </label>
 
@@ -249,7 +249,7 @@ export default function InputImage({
                                                     </div>
                                                     : <>
                                                         <Image className={cn(
-                                                            (fieldState.error || error) ? 'text-rose-500' : 'text-gold-sgs',
+                                                            (fieldState.error || error) ? 'text-rose-500' : 'text-premium-gold-sgs',
                                                             'h-[50px] w-[50px]'
                                                         )} />
                                                         <div className='flex flex-col justify-center gap-1'>

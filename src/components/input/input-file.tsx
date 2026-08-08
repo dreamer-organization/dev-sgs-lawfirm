@@ -138,7 +138,7 @@ export default function InputFile({
                                                 >
                                                     <label
                                                         htmlFor={name}
-                                                        className="flex justify-center items-center px-3 gap-2 w-[6rem] text-xs py-2 rounded transition duration-300 hover:bg-gold-sgs hover:text-white text-black bg-white cursor-pointer"
+                                                        className="flex justify-center items-center px-3 gap-2 w-[6rem] text-xs py-2 rounded transition duration-300 hover:bg-premium-gold-sgs hover:text-white text-black bg-white cursor-pointer"
                                                     >
                                                         <Pencil className="w-4 h-4" />
                                                         <span>Edit</span>
@@ -172,7 +172,7 @@ export default function InputFile({
                                             >
                                                 <FileText className="scale-150 xl:scale-[5] mb-4 text-blue-50 absolute z-10" />
                                                 <div className="z-30 flex flex-col items-center gap-1">
-                                                    <span className="text-center text-gold-sgs font-medium">
+                                                    <span className="text-center text-premium-gold-sgs font-medium">
                                                         {clipText(selectedFile?.name, 35) || ''}
                                                     </span>
                                                     <p className="text-center text-gray-400 text-[9px] xl:text-xs">
@@ -239,7 +239,7 @@ export default function InputFile({
                                             className="cursor-pointer absolute z-[50] w-full h-10 flex items-center justify-between pl-3 pr-1"
                                         >
                                             {selectedFile ? (
-                                                <span className="text-sm text-center text-gold-sgs font-medium">
+                                                <span className="text-sm text-center text-premium-gold-sgs font-medium">
                                                     {clipText(selectedFile?.name, textLength) || ''}
                                                 </span>
                                             ) : (

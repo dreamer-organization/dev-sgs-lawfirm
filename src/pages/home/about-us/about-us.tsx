@@ -38,7 +38,7 @@ const values = [
 
 export default function AboutUs() {
     return (
-        <section id="about-us" className="relative py-28 lg:py-36 container-custom md:container">
+        <section id="about-us" className="relative py-20 lg:py-24 container-custom md:container">
             {/* About Us */}
             <div className="grid items-center gap-20 lg:grid-cols-[0.45fr_0.55fr]">
                 {/* LEFT */}
@@ -49,20 +49,20 @@ export default function AboutUs() {
                     transition={{ duration: .7 }}
                 >
                     {/* Label */}
-                    <span className="text-md font-bold uppercase tracking-[4px] text-secondary-gold-sgs">
+                    <span className="text-md font-bold uppercase tracking-[4px] text-secondary-premium-gold-sgs">
                         ABOUT US
                     </span>
 
                     {/* Title */}
-                    <h2 className="mt-4 max-w-2xl font-serif text-xl font-semibold leading-none text-primary-sgs md:text-2xl lg:text-4xl">
+                    <h2 className="mt-4 max-w-2xl font-serif text-xl font-semibold leading-none text-navy-sgs md:text-2xl lg:text-4xl">
                         Young. Dynamic.
                         <br />
                         Always Evolving.
                     </h2>
 
                     {/* Paragraph */}
-                    <p className="mt-6 text-primary-sgs">History - SGS Law Firm</p>
-                    <p className="mt-1 max-w-2xl text-[18px] leading-9 text-gold-sgs">
+                    <p className="mt-6 text-navy-sgs">History - SGS Law Firm</p>
+                    <p className="mt-1 max-w-2xl text-[18px] leading-9 text-premium-gold-sgs">
                         "In March 2022, our firm which was formerly known as “GS&Co. Law Firm” rebranded its identity as “Sitepu Gozali Sitorus Law Firm” or “SGS Law Firm”."
                     </p>
 
@@ -88,7 +88,7 @@ export default function AboutUs() {
                                     className="flex gap-4"
                                 >
                                     <div className="mt-1 flex h-9 w-9 items-center justify-center rounded-full bg-[#D8B35B]/10">
-                                        <Icon size={18} className="text-secondary-gold-sgs" />
+                                        <Icon size={18} className="text-secondary-premium-gold-sgs" />
                                     </div>
 
                                     <div>
@@ -115,7 +115,7 @@ export default function AboutUs() {
                     className="relative"
                 >
                     {/* Frame */}
-                    <div className="overflow-hidden rounded-sm border-2 border-gold-sgs bg-white p-3">
+                    <div className="overflow-hidden rounded-sm border-2 border-premium-gold-sgs bg-white p-3">
                         <img src="/about/images-about-sgs-law-firm.webp" alt="" className="w-full" />
                     </div>
 
@@ -125,9 +125,9 @@ export default function AboutUs() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: .35 }}
-                        className="absolute -left-8 bottom-8 flex items-center gap-5 rounded-lg! bg-primary-sgs px-6 py-2 md:px-7 md:py-6 shadow-[0_18px_50px_rgba(0,0,0,.25)] border-b-[5px] border-gold-sgs"
+                        className="absolute -left-8 bottom-8 flex items-center gap-5 rounded-lg! bg-navy-sgs px-6 py-2 md:px-7 md:py-6 shadow-[0_18px_50px_rgba(0,0,0,.25)] border-b-[5px] border-premium-gold-sgs"
                     >
-                        <div className="text-md md:text-4xl font-bold leading-none text-gold-sgs">
+                        <div className="text-md md:text-4xl font-bold leading-none text-premium-gold-sgs">
                             20+
                         </div>
                         <div className="text-[10px] md:text-lg sm:leading-5 text-white">
@@ -153,7 +153,7 @@ export default function AboutUs() {
                     viewport={{ once: true, amount: .3 }}
                     transition={{ duration: .8 }}
                 >
-                    <div className="overflow-hidden rounded-sm border-2 border-gold-sgs bg-white p-3">
+                    <div className="overflow-hidden rounded-sm border-2 border-premium-gold-sgs bg-white p-3">
                         <img src="/about/Gambar-visi-sgs-law-firm.webp" alt="" className="w-full object-cover" />
                     </div>
                 </motion.div>
@@ -167,12 +167,12 @@ export default function AboutUs() {
                     className="flex flex-col items-center text-center"
                 >
                     {/* LABEL */}
-                    <span className="text-md font-bold uppercase tracking-[4px] text-secondary-gold-sgs">
+                    <span className="text-md font-bold uppercase tracking-[4px] text-secondary-premium-gold-sgs">
                         WHO WE ARE
                     </span>
 
                     {/* TITLE */}
-                    <h2 className="mt-4 max-w-2xl font-serif text-md font-semibold leading-none text-primary-sgs md:text-2xl lg:text-4xl">
+                    <h2 className="mt-4 max-w-2xl font-serif text-md font-semibold leading-none text-navy-sgs md:text-2xl lg:text-4xl">
                         With our recognized leadership in applying legal service and technology innovation, we deliver commercial advantage to clients.
                     </h2>
 
@@ -199,12 +199,12 @@ export default function AboutUs() {
                     className="text-center"
                 >
                     {/* LABEL */}
-                    <span className="text-md font-bold uppercase tracking-[4px] text-secondary-gold-sgs">
+                    <span className="text-md font-bold uppercase tracking-[4px] text-secondary-premium-gold-sgs">
                         OUR VALUE
                     </span>
 
                     {/* TITLE */}
-                    <h2 className="mt-4 font-serif text-md font-semibold leading-none text-primary-sgs md:text-2xl lg:text-4xl">
+                    <h2 className="mt-4 font-serif text-md font-semibold leading-none text-navy-sgs md:text-2xl lg:text-4xl">
                         " SGS Law Firm provides comprehensive legal solutions for both individual (B2C) and corporate (B2B) clients "
                     </h2>
 

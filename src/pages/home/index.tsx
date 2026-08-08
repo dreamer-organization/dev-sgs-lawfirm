@@ -10,6 +10,7 @@ import News from "./news/news";
 import ContactUs from "./contact-us/contact-us";
 import TrustedBy from "./trusted-by/trusted";
 import ConsultSection from "./contact-us/consult";
+import CoreValuesVision from "./core-values/core-values-vision";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Hero />
             <PracticeAreas />
             <AboutUs />
+            <CoreValuesVision />
             <Approach />
             <OurTeam />
             <News />

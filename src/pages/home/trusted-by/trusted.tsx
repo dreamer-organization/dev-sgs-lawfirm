@@ -70,7 +70,7 @@ const clients = [
 
 export default function TrustedBy() {
     return (
-        <section className="relative overflow-hidden bg-primary-sgs py-32 lg:py-40">
+        <section className="relative overflow-hidden bg-navy-sgs py-32 lg:py-40">
 
             {/* ================= BACKGROUND ================= */}
 
@@ -226,7 +226,7 @@ export default function TrustedBy() {
                             whileHover={{
                                 y: -6,
                             }}
-                            className="group relative overflow-hidden rounded-xl border border-[#263445] bg-linear-to-br from-secondary-sgs to-primary-sgs transition-all duration-500 hover:border-[#C6A15B] hover:shadow-[0_0_40px_rgba(198,161,91,.18)]"
+                            className="group relative overflow-hidden rounded-xl border border-[#263445] bg-linear-to-br from-secondary-sgs to-navy-sgs transition-all duration-500 hover:border-[#C6A15B] hover:shadow-[0_0_40px_rgba(198,161,91,.18)]"
                         >
                             {/* Glow */}
                             <div className="absolute inset-0 opacity-0 transition duration-500 group-hover:opacity-100">

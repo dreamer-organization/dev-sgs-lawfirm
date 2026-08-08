@@ -17,7 +17,7 @@ export default function FooterColumn({
                 {items.map((item) => (
                     <li
                         key={item}
-                        className="cursor-pointer text-sm text-[#7E8794] transition hover:text-gold-sgs">
+                        className="cursor-pointer text-sm text-[#7E8794] transition hover:text-premium-gold-sgs">
                         {item}
                     </li>
                 ))}

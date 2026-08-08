@@ -10,7 +10,7 @@ export default function NewsLayout({
     children,
 }: Props) {
     return (
-        <section className="bg-[#081119] py-24">
+        <section className="bg-primary-light-sgs py-24">
             <div className="container-custom md:container mx-auto px-6">
                 <div className="grid gap-12 xl:grid-cols-[280px_1fr]">
                     {/* SIDEBAR */}

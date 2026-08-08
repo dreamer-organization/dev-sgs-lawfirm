@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Approach() {
     return (
-        <section className="relative w-full bg-primary-sgs overflow-hidden">
+        <section className="relative w-full bg-navy-sgs overflow-hidden">
             <div className="grid lg:grid-cols-[45%_55%]">
                 {/* LEFT IMAGE */}
                 <motion.div
@@ -17,7 +17,7 @@ export default function Approach() {
                     <div className="absolute inset-0 bg-black/45" />
 
                     {/* Gradient */}
-                    <div className="absolute inset-y-0 right-0 w-72 bg-gradient-to-r from-transparent via-primary-sgs/60 to-primary-sgs" />
+                    <div className="absolute inset-y-0 right-0 w-72 bg-gradient-to-r from-transparent via-navy-sgs/60 to-navy-sgs" />
                 </motion.div>
 
                 {/* RIGHT CONTENT */}
@@ -70,9 +70,9 @@ export default function Approach() {
                                             <motion.div
                                                 whileHover={{ y: -6, scale: 1.05 }}
                                                 transition={{ duration: .3 }} 
-                                                className="relative z-10 flex items-center justify-center w-[78px] h-[78px] rounded-full border border-gold-sgs bg-primary-sgs"
+                                                className="relative z-10 flex items-center justify-center w-[78px] h-[78px] rounded-full border border-premium-gold-sgs bg-navy-sgs"
                                             >
-                                                <Icon size={28} className="text-gold-sgs"/>
+                                                <Icon size={28} className="text-premium-gold-sgs"/>
                                             </motion.div>
 
                                             {/* Title */}

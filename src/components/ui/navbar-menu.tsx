@@ -38,7 +38,7 @@ export const MenuItemChild = ({
                 <motion.p
                     transition={{ duration: 0.3 }}
                     className={cn(
-                        isActive ? 'text-gold-sgs font-bold' : 'text-neutral-600',
+                        isActive ? 'text-premium-gold-sgs font-bold' : 'text-neutral-600',
                         "cursor-pointer hover:text-black"
                     )}
                 >
@@ -103,7 +103,7 @@ export const MenuItem = ({
         <Link
             {...rest}
             to={link.link}
-            className={cn(isActive() ? "font-bold text-gold-sgs" : "text-neutral-600 hover:text-black")}
+            className={cn(isActive() ? "font-bold text-premium-gold-sgs" : "text-neutral-600 hover:text-black")}
         >
             {children}
         </Link>

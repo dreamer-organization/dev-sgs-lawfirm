@@ -6,7 +6,7 @@ import { IconMapPin } from "@tabler/icons-react";
 
 export default function Footer() {
     return (
-        <footer className="bg-linear-to-t from-primary-sgs to-secondary-sgs border-t border-gold-sgs">
+        <footer className="bg-linear-to-t from-navy-sgs to-secondary-sgs border-t border-premium-gold-sgs">
             <div className="mx-auto container-custom md:container px-6 py-24">
                 <div className="grid gap-20 lg:grid-cols-[1.5fr_1fr_1.3fr_1.2fr]">
                     <div>

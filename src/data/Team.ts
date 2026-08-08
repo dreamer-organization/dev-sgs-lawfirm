@@ -103,6 +103,20 @@ export const teamMembers = [
         imageDetail: "/photo/gary-yosua.webp",
         linkedin: "#",
         email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
     },
     {
         id: 6,
@@ -113,6 +127,20 @@ export const teamMembers = [
         imageDetail: "/photo/rudy-mangara-sirait.webp",
         linkedin: "#",
         email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
     },
     {
         id: 7,
@@ -123,6 +151,20 @@ export const teamMembers = [
         imageDetail: "/photo/gavril-amario-saimima.webp",
         linkedin: "#",
         email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
     },
     {
         id: 8,
@@ -133,6 +175,20 @@ export const teamMembers = [
         imageDetail: "/photo/fitri-emilifia.webp",
         linkedin: "#",
         email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
     },
     {
         id: 9,
@@ -143,6 +199,20 @@ export const teamMembers = [
         imageDetail: "/photo/john-haward-hutagaol.webp",
         linkedin: "#",
         email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
     },
     {
         id: 10,
@@ -153,6 +223,20 @@ export const teamMembers = [
         imageDetail: "/photo/valencia-rodrigo.webp",
         linkedin: "#",
         email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
     },
     {
         id: 11,
@@ -163,6 +247,20 @@ export const teamMembers = [
         imageDetail: "/photo/aditya-dimas-bagaskoro.webp",
         linkedin: "#",
         email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
     },
     {
         id: 12,
@@ -173,5 +271,309 @@ export const teamMembers = [
         imageDetail: "/photo/kezio-jonathan.webp",
         linkedin: "#",
         email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+];
+
+export const homeTeamMembers = [
+    {
+        id: 1,
+        name: "Juleo Armen Sitepu, S.H., M.H.",
+        position: "Managing Partner & Co-Founder",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/juleo-armen-sitepu.webp",
+        imageDetail: "/photo/juleo-armen-sitepu.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Juleo is one the founders of SGS Law Firm and acted as the Managing Partner. His main field are on criminal disputes and various commercial disputes in which he already build and extraordinary experiences in many cases and disputes handled and settled by him. He earned his Bachelor of Laws (S.H.) degree from the Faculty of Law at Universitas Diponegoro and he earned his Master of Laws (M.H.) degree from Universitas Gadjah Mada. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia as its in house counsel for litigation and alternative dispute resolution who is fully responsible for handling criminal disputes and various commercial disputes.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Criminal Law",
+            "Retail Business",
+            "Arbitration and Alternative Dispute Settlement",
+            "Real Estate and Property Law"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Diponegoro",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 2,
+        name: "Benaya Ari Patra Sitorus, S.H.",
+        position: "Partner & Co-Founder",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/benaya-ari-patra-sitorus.webp",
+        imageDetail: "/photo/benaya-ari-patra-sitorus.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Benaya is one the founding partners of SGS Law Firm specializing in corporate laws, financial technology and insurance. He is a law graduate of Universitas Diponegoro, Semarang. He started his career at Harvardy, Marieta & Mauren Attorneys at Law where he assisted various merger and acquisition, fintech, insurance, employment and litigation as well as general corporate matters. He was seconded to two of the leading multinational insurance companies in Indonesia in 2020 and 2021 as its in house legal counsel for the merger and acquisition of such companies and handling corporate matters. He also worked as in house legal counsel for leading information & technology as well as insurance broker company. He has worked for one of leading fintech (peer-to-peer lending) company in Indonesia.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "General Corporate and Litigation",
+            "Insurance",
+            "Finance and Investment",
+            "Merger and Acquisition",
+            "Financial Technology",
+            "Intellectual Property Right",
+            "Anti Monopoly and Unfair Business Competition"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Diponegoro"
+        ],
+    },
+    {
+        id: 3,
+        name: "Posma Obet Andreas Panjaitan, S.H., M.H.",
+        position: "Partner",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/posma-obet-andreas-panjaitan.webp",
+        imageDetail: "/photo/posma-obet-andreas-panjaitan.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Posma is the newest partner of SGS Law Firm. He graduated from Faculty of Law Diponegoro University and graduated as Master of Law from University of Indonesia. His particular experience in structuring legal frameworks, negotiating and providing legal strategy as well as preparing transactions for a broad range of transactional arrangements has led him to handle various types of projects as well as principal advisor in favour of numerous multinational companies in Indonesia. Furthermore, Posma had a practical experience in handling corporate issues and contracts, such as Company Regulation, termination and/or dismissal of employee(s), social security right of the employee and legal proceeding in connection with an employment/industrial dispute. Posma also had experience in the areas of corruption and money laundering. He has extensive experience defending high net worth individuals through all stages of criminal proceedings, offering strategic, discreet, and legally robust representation.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Criminal Law"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Diponegoro",
+            "Master of Laws (M.H.) - Universitas Indonesia"
+        ],
+    },
+    {
+        id: 4,
+        name: "Airlangga Gozali, S.H., M.H.",
+        position: "Of Counsel",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/airlangga-gozali.webp",
+        imageDetail: "/photo/airlangga-gozali.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 5,
+        name: "Gary Yosua, A.Md.A.P.",
+        position: "Of Counsel",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/gary-yosua.webp",
+        imageDetail: "/photo/gary-yosua.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 6,
+        name: "Rudy Mangara Sirait, S.H.",
+        position: "Of Counsel",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/rudy-mangara-sirait.webp",
+        imageDetail: "/photo/rudy-mangara-sirait.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 7,
+        name: "Gavril Amario Saimima, S.H.",
+        position: "Senior Associate",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/gavril-amario-saimima.webp",
+        imageDetail: "/photo/gavril-amario-saimima.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 8,
+        name: "F. Fitriemilifia, S.H., M.H.",
+        position: "Senior Associate",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/fitri-emilifia.webp",
+        imageDetail: "/photo/fitri-emilifia.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 9,
+        name: "Jhon Howard Hutagaol, S.H.",
+        position: "Associate",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/john-haward-hutagaol.webp",
+        imageDetail: "/photo/john-haward-hutagaol.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 10,
+        name: "Valencia Rodrigo, S.H.",
+        position: "Associate",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/valencia-rodrigo.webp",
+        imageDetail: "/photo/valencia-rodrigo.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 11,
+        name: "Aditya Dimas Bagaskoro, S.H.",
+        position: "Junior Associate",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/aditya-dimas-bagaskoro.webp",
+        imageDetail: "/photo/aditya-dimas-bagaskoro.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
+    },
+    {
+        id: 12,
+        name: "Kezio Jonathan Sitio, S.H.",
+        position: "Junior Associate",
+        description: "Specializes in corporate law, commercial litigation, and regulatory compliance.",
+        image: "/photo-card/kezio-jonathan.webp",
+        imageDetail: "/photo/kezio-jonathan.webp",
+        linkedin: "#",
+        email: "#",
+        biography: "Airlangga is one the founders of SGS Law Firm and acted as Of-Counsel specializing in labor law and alternative disputes settlement. He got his bachelor's degree (S.H.) in law from Atma Jaya Catholic University of Indonesia and got his master's degree (M.H.) in law from Gadjah Mada University of Indonesia. Prior to establishing SGS Law Firm, he worked for the largest retail company in Indonesia; he worked as in house legal counsel and industrial relation specialist who is fully responsible for handling labor cases throughout Indonesia and has settle countless labor dispute for that company. He has handled various disputes for the following industries: retail, groceries, outsource, food processing, IT consultant, business aggregator and more related to civil, criminal and state administrative regarding labor law.",
+        practiceAreasDesc: 'Our firm represents a variety of business, financial, institutional, and individual clients in a wide range of matters.',
+        practiceAreas: [
+            "Commercial and General Litigation",
+            "Consumer Protection",
+            "Industrial Relations and Employment",
+            "Compliance",
+            "Arbitration and Alternative Dispute Settlement"
+        ],
+
+        education: [
+            "Bachelor of Laws (S.H.) - Universitas Katolik Indonesia Atma Jaya",
+            "Master of Laws (M.H.) - Universitas Gadjah Mada"
+        ],
     },
 ];
